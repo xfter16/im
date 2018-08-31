@@ -1,0 +1,73 @@
+"core_mediator": {
+	"id": 0,
+	"modules_address_book": {
+		"user_profile": 1,
+		"user_dashboard": 2,
+		"user_storage": 3,
+		"module_storage": 4,
+		"module_factory": 5, 
+	},
+	"self_methods": {
+		"get": 0,
+		"put": 1
+	}
+},
+"user_profile": {
+	"id": 1,
+	"mediator_id": 0,
+	"command": {
+		"get": 0,
+		"edit": 1,
+		"create": 2,
+		"delete": 3
+	},
+	"data": "data",
+	"self_methods": {
+		"get": 0,
+		"update": 1
+	}
+},
+"user_dashboard": {
+	"id": 2,
+	"mediator_id": 0,
+	"self_methods": {
+		"get": 0,
+		"edit": 1,
+		"create": 2,
+		"delete": 3
+	}
+},
+"user_storage": {
+	"id": 3,
+	"mediator_id": 0,
+	"self_methods": {
+		"get": 0,
+		"put": 1
+	}
+},
+"module_storage": {
+	"id": 4,
+	"mediator_id": 0,
+	"self_methods": {
+		"get": 0,
+		"put": 1
+	}
+},
+"module_factory": {
+	"id": 5,
+	"mediator_id": 0,
+	"self_methods": {
+		"get": 0,
+		"put": 1
+	}
+}
+
+		
+		// "modul_uid": lsdjnfdiaf-34940lajsd0f-dfd-dfdf
+		// "id":3,
+		// "command": 1,
+		// "id":3,
+		// "command": 3,
+		// "data": "daagt",
+
+		// 31 -> 

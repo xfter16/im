@@ -1,0 +1,32 @@
+{
+  "name": "im",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xfter16/im.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xfter16/im/issues"
+  },
+  "homepage": "https://github.com/xfter16/im#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chai": "^4.1.2",
+    "chalk": "^2.4.1",
+    "express": "^4.16.3",
+    "immutable": "^3.8.2",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.0"
+  }
+}
